@@ -1,0 +1,41 @@
+/*Desktop first*/
+@media (min-width: 1171px){
+	.container{
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 1170px){
+	.container{
+		width: 992px;
+		margin: 0 auto;
+	}
+	section#services .classWrap{
+		justify-content: center;
+    }
+}
+@media (max-width: 992px){
+	.container{
+		width: 768;
+		margin: 0 auto;
+	}
+
+
+@media (max-width: 768px){
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+	section#services .classWrap{
+		flex-direction: column;
+    }
+    section#services .classWrap .service{
+		margin-bottom: 20px;
+    }
+}
+@media (max-width: 320px){
+	
+}	
+
+/*mobile-first*/
